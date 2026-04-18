@@ -11,6 +11,8 @@ on:
 jobs:
   build-debug-apk:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout
